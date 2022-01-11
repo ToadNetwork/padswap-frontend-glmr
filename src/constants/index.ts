@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@padswap/sdk'
 
-export const ROUTER_ADDRESS = '0x790d4b443edB9ce9A8d1aEC585edd89E51132D2c'
+export const ROUTER_ADDRESS = '0x40F1fEF0Fe68Fd10ff904070ee00a7769EE7fe34'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -50,8 +50,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0xC0888d80EE0AbF84563168b3182650c0AdDEb6d5', 18, 'PAD', 'Lily Pad'),
-      new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WMOVR', 'Wrapped MOVR'),
+      new Token(ChainId.MAINNET, '0x59193512877E2EC3bB27C178A8888Cfac62FB32D', 18, 'PAD', 'Lily Pad'),
+      new Token(ChainId.MAINNET, '0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3', 18, 'WGLMR', 'Wrapped GLMR'),
     ],
     [BUSD, USDT],
     [DAI, USDT],

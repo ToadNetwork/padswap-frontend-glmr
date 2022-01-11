@@ -36,7 +36,7 @@ var Rounding;
 })(Rounding || (Rounding = {}));
 
 var FACTORY_ADDRESS = '0x663a07a2648296f1A3C02EE86A126fE1407888E5';
-var INIT_CODE_HASH = '0xc5443539aede6901cfc8cbd4f358bb6c6524f2d1bd7ecd1f6ebea4d34498726d';
+var INIT_CODE_HASH = '0x3eb475f0bc063c4f457199bae925b27d909f4af70ef7db78ba734972fc1a8543';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);

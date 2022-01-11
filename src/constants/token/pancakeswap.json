@@ -11,92 +11,12 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "address": "0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d",
-      "chainId": 1285,
-      "decimals": 6,
-      "logoURI": "https://padswap.exchange/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
-    },
-    {
-      "name": "Binance Peg BUSD Token",
-      "symbol": "BUSD",
-      "address": "0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x5D9ab5522c64E1F6ef5e3627ECCc093f56167818.png"
-    },
-    {
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "address": "0xB44a9B6905aF7c801311e8F4E76932ee959c663C",
-      "chainId": 1285,
-      "decimals": 6,
-      "logoURI": "https://padswap.exchange/images/coins/0xB44a9B6905aF7c801311e8F4E76932ee959c663C.png"
-    },
-    {
-      "name": "DAI Stablecoin",
-      "symbol": "DAI",
-      "address": "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844.png"
-    },
-    {
-      "name": "Magic Internet Money",
-      "symbol": "MIM",
-      "address": "0x0caE51e1032e8461f4806e26332c030E34De3aDb",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x0caE51e1032e8461f4806e26332c030E34De3aDb.png"
-    },
-    {
-      "name": "Movr Pad",
+      "name": "Glmr Pad",
       "symbol": "PAD",
-      "address": "0x45488C50184Ce2092756ba7CdF85731fD17e6f3d",
-      "chainId": 1285,
+      "address": "0x59193512877E2EC3bB27C178A8888Cfac62FB32D",
+      "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x45488C50184Ce2092756ba7CdF85731fD17e6f3d.png"
-    },
-    {
-      "name": "Binance Coin",
-      "symbol": "BNB",
-      "address": "0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c.png"
-    },
-    {
-      "name": "Toad Network",
-      "symbol": "TOAD",
-      "address": "0x165DBb08de0476271714952C3C1F068693bd60D7",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x165DBb08de0476271714952C3C1F068693bd60D7.png"
-    },
-    {
-      "name": "River Doge",
-      "symbol": "RIVERDOGE",
-      "address": "0x5D4360f1Be94bD6f182F09cFE5EF9832e65EB1ac",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x5D4360f1Be94bD6f182F09cFE5EF9832e65EB1ac.png"
-    },
-    {
-      "name": "FRAX",
-      "symbol": "FRAX",
-      "address": "0x1A93B23281CC1CDE4C4741353F3064709A16197d",
-      "chainId": 1285,
-      "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x1A93B23281CC1CDE4C4741353F3064709A16197d.png"
-    },
-    {
-      "name": "ROME DAO",
-      "symbol": "ROME",
-      "address": "0x4a436073552044D5f2f49B176853ad3Ad473d9d6",
-      "chainId": 1285,
-      "decimals": 9,
-      "logoURI": "https://padswap.exchange/images/coins/0x4a436073552044D5f2f49B176853ad3Ad473d9d6.png"
+      "logoURI": "https://padswap.exchange/images/coins/0x59193512877E2EC3bB27C178A8888Cfac62FB32D.png"
     }
   ]
 }
