@@ -18,12 +18,12 @@ export function isAddress(value: any): string | false {
 }
 
 const BSCSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  1285: 'MOVR Mainnet',
+  1284: 'GLMR Mainnet',
   97: 'testnet.'
 }
 
 export function getBscScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://moonriver.moonscan.io/`
+  const prefix = `https://rpc.api.moonbeam.network`
 
   switch (type) {
     case 'transaction': {
