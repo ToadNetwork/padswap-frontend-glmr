@@ -25,7 +25,7 @@ const TransactionSubmittedContent = ({ onDismiss, chainId, hash }: TransactionSu
         </ConfirmedIcon>
         <AutoColumn gap="8px" justify="center">
           {chainId && hash && (
-            <LinkExternal href={getBscScanLink(chainId, hash, 'transaction')}>View on MoonScan</LinkExternal>
+            <LinkExternal href={getBscScanLink(chainId, hash, 'transaction')}>View on Moonbeam Explorer</LinkExternal>
           )}
           <Button onClick={onDismiss} mt="20px">
             Close

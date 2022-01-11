@@ -23,7 +23,7 @@ const BSCSCAN_PREFIXES: { [chainId in ChainId]: string } = {
 }
 
 export function getBscScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://rpc.api.moonbeam.network`
+  const prefix = `https://blockscout.moonbeam.network`
 
   switch (type) {
     case 'transaction': {
