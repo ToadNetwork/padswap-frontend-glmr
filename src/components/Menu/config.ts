@@ -46,6 +46,11 @@ const config: MenuEntry[] = [
     href: 'https://dapps.padswap.exchange/bridge',
   },
   {
+    label: 'Docs',
+    icon: 'ChartIcon',
+    href: 'https://docs.toad.network/',
+  },
+  {
     label: 'Vault',
     icon: 'ChartIcon',
     href: 'https://dapps.padswap.exchange/vault',
