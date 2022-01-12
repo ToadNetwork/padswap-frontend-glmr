@@ -16,15 +16,15 @@
       "address": "0x59193512877E2EC3bB27C178A8888Cfac62FB32D",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/pad/pad-moonbeam.png"
+      "logoURI": "https://glmr.padswap.exchange/images/pad/pad-moonbeam.png"
     },
     {
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
+      "name": "Ether",
+      "symbol": "ETH",
       "address": "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://padswap.exchange/images/coins/0x2170ed0880ac9a755fd29b2688956bd959f933f8.png"
+      "logoURI": "https://glmr.padswap.exchange/images/coins/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7.png"
     },
     {
       "name": "Dai Stablecoin",
@@ -32,7 +32,7 @@
       "address": "0xc234A67a4F840E61adE794be47de455361b52413",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://movr.padswap.exchange/images/coins/0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844.png"
+      "logoURI": "https://glmr.padswap.exchange/images/coins/0xc234A67a4F840E61adE794be47de455361b52413.png"
     },
     {
       "name": "Tether USD",
@@ -40,7 +40,7 @@
       "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
       "chainId": 1284,
       "decimals": 6,
-      "logoURI": "https://padswap.exchange/images/coins/0x55d398326f99059fF775485246999027B3197955.png"
+      "logoURI": "https://glmr.padswap.exchange/images/coins/0x8e70cd5b4ff3f62659049e74b6649c6603a0e594.png"
     },
     {
       "name": "USD Coin",
@@ -48,7 +48,7 @@
       "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
       "chainId": 1284,
       "decimals": 6,
-      "logoURI": "https://padswap.exchange/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
+      "logoURI": "https://glmr.padswap.exchange/images/coins/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9.png"
     }
   ]
 }
