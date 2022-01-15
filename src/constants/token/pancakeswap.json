@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://padswap.exchange/images/pad.png",
+  "logoURI": "https://padswap.exchange/glmr/images/pad.png",
   "keywords": ["pancake", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "address": "0x59193512877E2EC3bB27C178A8888Cfac62FB32D",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://glimmer.padswap.exchange/images/pad/pad-moonbeam.png"
+      "logoURI": "https://padswap.exchange/glmr/images/pad/pad-moonbeam.png"
     },
     {
       "name": "xEther",
@@ -24,7 +24,7 @@
       "address": "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7.png"
     },
     {
       "name": "anyEther",
@@ -32,7 +32,7 @@
       "address": "0xfA9343C3897324496A05fC75abeD6bAC29f8A40f",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7.png"
     },
     {
       "name": "Dai Stablecoin",
@@ -40,7 +40,7 @@
       "address": "0xc234A67a4F840E61adE794be47de455361b52413",
       "chainId": 1284,
       "decimals": 18,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0xc234A67a4F840E61adE794be47de455361b52413.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0xc234A67a4F840E61adE794be47de455361b52413.png"
     },
     {
       "name": "Tether USD",
@@ -48,7 +48,7 @@
       "address": "0x8e70cd5b4ff3f62659049e74b6649c6603a0e594",
       "chainId": 1284,
       "decimals": 6,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0x8e70cd5b4ff3f62659049e74b6649c6603a0e594.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x8e70cd5b4ff3f62659049e74b6649c6603a0e594.png"
     },
     {
       "name": "USD Coin",
@@ -56,7 +56,7 @@
       "address": "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9",
       "chainId": 1284,
       "decimals": 6,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9.png"
     },
     {
       "name": "USD Coin",
@@ -64,23 +64,31 @@
       "address": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
       "chainId": 1284,
       "decimals": 6,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9.png"
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9.png"
     },
     {
       "name": "Binance Coin",
       "symbol": "anyBNB",
       "address": "0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055",
       "chainId": 1284,
-      "decimals": 6,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055.png"
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0xc9BAA8cfdDe8E328787E29b4B078abf2DaDc2055.png"
     },
     {
       "name": "BUSD",
       "symbol": "anyBUSD",
       "address": "0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F",
       "chainId": 1284,
-      "decimals": 6,
-      "logoURI": "https://glimmer.padswap.exchange/images/coins/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F.png"
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F.png"
+    },
+    {
+      "name": "Toad.network",
+      "symbol": "TOAD",
+      "address": "0xF480f38C366dAaC4305dC484b2Ad7a496FF00CeA",
+      "chainId": 1284,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0xF480f38C366dAaC4305dC484b2Ad7a496FF00CeA.png"
     }
   ]
 }
