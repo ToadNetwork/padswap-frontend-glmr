@@ -7,9 +7,16 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const USDC = new Token(ChainId.MAINNET, '0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9', 6, 'USDC', 'USD Coin')
+
+export const TOAD = new Token(ChainId.MAINNET, '0xF480f38C366dAaC4305dC484b2Ad7a496FF00CeA', 18, 'TOAD', 'Toad.network')
+export const BUSD = new Token(ChainId.MAINNET, '0xA649325Aa7C5093d12D6F98EB4378deAe68CE23F', 18, 'anyBUSD', 'BUSD')
+export const anyUSDC = new Token(ChainId.MAINNET, '0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b', 6, 'anyUSDC', 'USD Coin')
+export const anyETH = new Token(ChainId.MAINNET, '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f', 6, 'anyETH', 'ETHEREUM')
+export const xETH = new Token(ChainId.MAINNET, '0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7', 6, 'xETH', 'ETHEREUM')
+
+export const xUSDC = new Token(ChainId.MAINNET, '0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9', 6, 'xUSDC', 'USD Coin')
 export const PAD = new Token(ChainId.MAINNET, '0x59193512877E2EC3bB27C178A8888Cfac62FB32D', 18, 'PAD', 'Glmr Pad')
-export const MOVR = new Token(ChainId.MAINNET, '0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3', 18, 'GLMR', 'MoonBeam')
+export const GLMR = new Token(ChainId.MAINNET, '0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3', 18, 'GLMR', 'MoonBeam')
 export const DAI = new Token(ChainId.MAINNET, '0xc234A67a4F840E61adE794be47de455361b52413', 18, 'DAI', 'DAI Stable Coin')
 export const USDT = new Token(ChainId.MAINNET, '0x8e70cd5b4ff3f62659049e74b6649c6603a0e594', 6, 'USDT', 'Tether USD')
 
@@ -22,7 +29,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], USDC, PAD, MOVR, DAI, USDT],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], TOAD, BUSD, anyUSDC, anyETH, xETH, xUSDC, PAD, GLMR, DAI, USDT],
 }
 
 /**
@@ -36,22 +43,21 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDT],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], TOAD, BUSD, anyUSDC, anyETH, xETH, xUSDC, PAD, GLMR, DAI, USDT],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], DAI, USDT],
+  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], TOAD, BUSD, anyUSDC, anyETH, xETH, xUSDC, PAD, GLMR, DAI, USDT],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
     [
-      new Token(ChainId.MAINNET, '0x59193512877E2EC3bB27C178A8888Cfac62FB32D', 18, 'PAD', 'Lily Pad'),
-      new Token(ChainId.MAINNET, '0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3', 18, 'WGLMR', 'Wrapped GLMR'),
-    ],
-    [USDC, USDT],
+      GLMR,
+      PAD,
+    ]
   ],
 }
 
