@@ -89,6 +89,14 @@
       "chainId": 1284,
       "decimals": 18,
       "logoURI": "https://padswap.exchange/glmr/images/coins/0xF480f38C366dAaC4305dC484b2Ad7a496FF00CeA.png"
+    },
+    {
+      "name": "Wrapped Glimmer",
+      "symbol": "WGLMR",
+      "address": "0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3",
+      "chainId": 1284,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3.png"
     }
   ]
 }
