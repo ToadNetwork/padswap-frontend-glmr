@@ -97,6 +97,14 @@
       "chainId": 1284,
       "decimals": 18,
       "logoURI": "https://padswap.exchange/glmr/images/coins/0xe3DB50049C74De2F7d7269823af3178Cf22fd5E3.png"
+    },
+    {
+      "name": "Avalanche",
+      "symbol": "anyAVAX",
+      "address": "0x4792C1EcB969B036eb51330c63bD27899A13D84e",
+      "chainId": 1284,
+      "decimals": 18,
+      "logoURI": "https://padswap.exchange/glmr/images/coins/0x4792C1EcB969B036eb51330c63bD27899A13D84e.png"
     }
   ]
 }
